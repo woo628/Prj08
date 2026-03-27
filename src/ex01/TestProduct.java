@@ -118,6 +118,8 @@ class Product implements Ipo {
 		
 		p =  new ProdVo(num, pcode, amount, price);
 		//System.out.println(p);
+		
+		sc.close();
 	}
 
 	@Override
